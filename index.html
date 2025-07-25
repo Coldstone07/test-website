@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jatin Alla - HCI Researcher & Entrepreneur</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #111827; /* Dark blue-gray background */
+            color: #E5E7EB; /* Light gray text */
+        }
+        .gradient-text {
+            background: linear-gradient(to right, #38bdf8, #818cf8);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .glass-card {
+            background: rgba(31, 41, 55, 0.5); /* Semi-transparent dark gray */
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 1rem;
+        }
+        .tag {
+            background-color: #374151;
+            color: #D1D5DB;
+            padding: 0.25rem 0.75rem;
+            border-radius: 9999px;
+            font-size: 0.75rem;
+            font-weight: 500;
+        }
+    </style>
+</head>
+<body class="antialiased">
+
+    <!-- Header -->
+    <header id="header" class="fixed top-0 left-0 right-0 z-50 bg-gray-900/80 backdrop-blur-sm border-b border-gray-700/50">
+        <div class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <a href="#" class="text-xl font-bold tracking-tight text-white">Jatin Alla</a>
+            <nav class="hidden md:flex space-x-8 items-center">
+                <a href="#about" class="text-gray-300 hover:text-sky-400 transition-colors">About</a>
+                <a href="#projects" class="text-gray-300 hover:text-sky-400 transition-colors">Projects</a>
+                <a href="#experience" class="text-gray-300 hover:text-sky-400 transition-colors">Experience</a>
+                <a href="#contact" class="bg-sky-500 hover:bg-sky-600 text-white font-bold py-2 px-4 rounded-full transition-transform transform hover:scale-105">Contact</a>
+            </nav>
+            <button id="mobile-menu-button" class="md:hidden text-white">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7" />
+                </svg>
+            </button>
+        </div>
+        <!-- Mobile Menu -->
+        <div id="mobile-menu" class="hidden md:hidden">
+            <a href="#about" class="block py-2 px-6 text-gray-300 hover:bg-gray-800">About</a>
+            <a href="#projects" class="block py-2 px-6 text-gray-300 hover:bg-gray-800">Projects</a>
+            <a href="#experience" class="block py-2 px-6 text-gray-300 hover:bg-gray-800">Experience</a>
+            <a href="#contact" class="block py-2 px-6 text-gray-300 hover:bg-gray-800">Contact</a>
+        </div>
+    </header>
+
+    <main class="pt-24">
+        <!-- Hero Section -->
+        <section id="hero" class="py-20 md:py-32">
+            <div class="container mx-auto px-6 text-center">
+                <h1 class="text-4xl md:text-6xl font-black tracking-tighter mb-4">
+                    <span class="gradient-text">Bridging Minds & Machines</span>
+                </h1>
+                <p class="text-lg md:text-xl max-w-3xl mx-auto text-gray-300 mb-8">
+                    An HCI researcher with a cognitive science background, combining expertise in AI, psychology, and neuroscience to design user-centered technologies that foster genuine human connection and well-being.
+                </p>
+                <div class="flex justify-center space-x-4">
+                    <a href="#projects" class="bg-sky-500 hover:bg-sky-600 text-white font-bold py-3 px-8 rounded-full transition-transform transform hover:scale-105">View My Work</a>
+                    <a href="Copy of Jatin_Alla_Resume.docx" target="_blank" class="bg-gray-700 hover:bg-gray-600 text-white font-bold py-3 px-8 rounded-full transition-transform transform hover:scale-105">View Resume</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Me -->
+        <section id="about" class="py-20 bg-gray-900/50">
+            <div class="container mx-auto px-6">
+                <div class="text-center mb-12">
+                    <h2 class="text-3xl md:text-4xl font-bold tracking-tight">My Mission</h2>
+                    <p class="text-gray-400 mt-2">Driven by a passion to solve complex human problems with technology.</p>
+                </div>
+                <div class="max-w-4xl mx-auto grid md:grid-cols-2 gap-8 items-center">
+                    <div class="glass-card p-8">
+                        <h3 class="text-2xl font-bold text-white mb-4">Philosophy</h3>
+                        <p class="text-gray-300">
+                            I believe technology's true potential lies in its ability to augment our humanity. My work focuses on tackling loneliness, addiction, and isolation by creating AI solutions that empower people to connect, heal, and thrive. I am committed to ethical innovation and building socially responsible AI that serves the greater good.
+                        </p>
+                    </div>
+                    <div class="glass-card p-8">
+                        <h3 class="text-2xl font-bold text-white mb-4">Core Skills</h3>
+                        <ul class="space-y-3 text-gray-300">
+                            <li class="flex items-center"><span class="text-sky-400 mr-3">&#10003;</span>Psychology & Cognitive Neuroscience</li>
+                            <li class="flex items-center"><span class="text-sky-400 mr-3">&#10003;</span>Human-Computer Interaction (HCI)</li>
+                            <li class="flex items-center"><span class="text-sky-400 mr-3">&#10003;</span>Ethical AI & User Safety</li>
+                            <li class="flex items-center"><span class="text-sky-400 mr-3">&#10003;</span>Qualitative & Quantitative Research</li>
+                            <li class="flex items-center"><span class="text-sky-400 mr-3">&#10003;</span>Machine Learning & Data Analysis</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects -->
+        <section id="projects" class="py-20">
+            <div class="container mx-auto px-6">
+                <div class="text-center mb-12">
+                    <h2 class="text-3xl md:text-4xl font-bold tracking-tight">Ventures & Innovations</h2>
+                    <p class="text-gray-400 mt-2">A selection of projects that embody my passion for building a better future.</p>
+                </div>
+                <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                    <!-- Project Card 1: Kairos AI -->
+                    <div class="glass-card p-6 flex flex-col hover:border-sky-400/50 transition-all duration-300 transform hover:-translate-y-1">
+                        <h3 class="text-xl font-bold text-white mb-2">Kairos AI</h3>
+                        <p class="text-gray-400 text-sm mb-4 flex-grow">A new venture focused on leveraging AI to deepen human connection and self-awareness. Currently in the foundational stage.</p>
+                        <div class="mt-auto">
+                            <span class="tag">Entrepreneurship</span>
+                            <span class="tag">AI</span>
+                            <span class="tag">Well-being</span>
+                        </div>
+                    </div>
+                    <!-- Project Card 2: Coaching LLM -->
+                    <div class="glass-card p-6 flex flex-col hover:border-sky-400/50 transition-all duration-300 transform hover:-translate-y-1">
+                        <h3 class="text-xl font-bold text-white mb-2">Coaching LLM Framework</h3>
+                        <p class="text-gray-400 text-sm mb-4 flex-grow">Led a year-long project at Google Research in collaboration with Fitbit to build empathetic and motivational LLMs for health coaching, using expert feedback to refine prototypes.</p>
+                        <div class="mt-auto">
+                            <span class="tag">Google Research</span>
+                            <span class="tag">LLM</span>
+                            <span class="tag">HCI</span>
+                        </div>
+                    </div>
+                    <!-- Project Card 3: AI for Mental Health -->
+                    <div class="glass-card p-6 flex flex-col hover:border-sky-400/50 transition-all duration-300 transform hover:-translate-y-1">
+                        <h3 class="text-xl font-bold text-white mb-2">AI for Self-Awareness</h3>
+                        <p class="text-gray-400 text-sm mb-4 flex-grow">A platform concept to use perceptive technology and biofeedback to help users become aware of unconscious habit patterns, fostering digital coherence and improved mental health.</p>
+                        <div class="mt-auto">
+                            <span class="tag">Concept</span>
+                            <span class="tag">Mental Health</span>
+                            <span class="tag">Bio-integration</span>
+                        </div>
+                    </div>
+                    <!-- Project Card 4: Social Lubricant Agent -->
+                    <div class="glass-card p-6 flex flex-col hover:border-sky-400/50 transition-all duration-300 transform hover:-translate-y-1">
+                        <h3 class="text-xl font-bold text-white mb-2">Moderator Chatbot</h3>
+                        <p class="text-gray-400 text-sm mb-4 flex-grow">In-progress development of a "social lubricant" agent designed to facilitate smoother conversations between two people by detecting awkwardness and preventing interruptions.</p>
+                        <div class="mt-auto">
+                            <span class="tag">In Progress</span>
+                            <span class="tag">Social AI</span>
+                            <span class="tag">NLP</span>
+                        </div>
+                    </div>
+                    <!-- Project Card 5: Foodlens -->
+                    <div class="glass-card p-6 flex flex-col hover:border-sky-400/50 transition-all duration-300 transform hover:-translate-y-1">
+                        <h3 class="text-xl font-bold text-white mb-2">Foodlens Research</h3>
+                        <p class="text-gray-400 text-sm mb-4 flex-grow">Led qualitative research for a food app, creating a hierarchical model from chef interviews and developing an annotation protocol for 32K images to inform vision models. Published at AAMAS 2024.</p>
+                        <div class="mt-auto">
+                            <span class="tag">Published Research</span>
+                            <span class="tag">Computer Vision</span>
+                            <span class="tag">Data Science</span>
+                        </div>
+                    </div>
+                     <!-- Project Card 6: Twitter Algorithm Research -->
+                    <div class="glass-card p-6 flex flex-col hover:border-sky-400/50 transition-all duration-300 transform hover:-translate-y-1">
+                        <h3 class="text-xl font-bold text-white mb-2">Twitter Algorithm Ethics</h3>
+                        <p class="text-gray-400 text-sm mb-4 flex-grow">Led research on Twitter's hate speech algorithm, analyzing its ethical implications and social impact. Developed an interactive Python GUI to visualize NLP data for non-technical professionals.</p>
+                        <div class="mt-auto">
+                            <span class="tag">Ethical AI</span>
+                            <span class="tag">NLP</span>
+                            <span class="tag">Data Visualization</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Experience -->
+        <section id="experience" class="py-20 bg-gray-900/50">
+            <div class="container mx-auto px-6">
+                <div class="text-center mb-12">
+                    <h2 class="text-3xl md:text-4xl font-bold tracking-tight">My Journey</h2>
+                    <p class="text-gray-400 mt-2">Key milestones in my professional career.</p>
+                </div>
+                <div class="max-w-3xl mx-auto">
+                    <div class="relative border-l-2 border-gray-700">
+                        <!-- Experience Item 1 -->
+                        <div class="mb-8 ml-6 pl-6 relative">
+                            <span class="absolute -left-[1.6rem] top-1 flex items-center justify-center w-8 h-8 bg-sky-500 rounded-full ring-4 ring-gray-900">
+                                <svg class="w-4 h-4 text-white" fill="currentColor" viewBox="0 0 20 20"><path d="M10.894 2.553a1 1 0 00-1.788 0l-7 14a1 1 0 001.169 1.409l5-1.429A1 1 0 009 15.571V11a1 1 0 112 0v4.571a1 1 0 00.725.962l5 1.428a1 1 0 001.17-1.408l-7-14z"></path></svg>
+                            </span>
+                            <h3 class="text-lg font-semibold text-white">Co-Founder</h3>
+                            <p class="text-sm font-normal text-gray-400">Kairos AI | SF Bay Area</p>
+                            <time class="block mb-2 text-sm font-normal leading-none text-gray-500">2025 - Present</time>
+                        </div>
+                        <!-- Experience Item 2 -->
+                        <div class="mb-8 ml-6 pl-6 relative">
+                             <span class="absolute -left-[1.6rem] top-1 flex items-center justify-center w-8 h-8 bg-sky-500 rounded-full ring-4 ring-gray-900">
+                                <svg class="w-4 h-4 text-white" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M6 6V5a3 3 0 013-3h2a3 3 0 013 3v1h2a2 2 0 012 2v3.586A2.5 2.5 0 0117.5 14h-11A2.5 2.5 0 014 11.586V8a2 2 0 012-2h2zm4-1V5a1 1 0 00-1-1H9a1 1 0 00-1 1v1h2zm-1 4a1 1 0 100 2 1 1 0 000-2z" clip-rule="evenodd"></path></svg>
+                            </span>
+                            <h3 class="text-lg font-semibold text-white">Pre-Doctoral Researcher</h3>
+                            <p class="text-sm font-normal text-gray-400">Google Research, AI Lab (Health Team) | Bangalore, India</p>
+                            <time class="block mb-2 text-sm font-normal leading-none text-gray-500">2022 - 2024</time>
+                        </div>
+                        <!-- Experience Item 3 -->
+                        <div class="mb-8 ml-6 pl-6 relative">
+                             <span class="absolute -left-[1.6rem] top-1 flex items-center justify-center w-8 h-8 bg-sky-500 rounded-full ring-4 ring-gray-900">
+                                <svg class="w-4 h-4 text-white" fill="currentColor" viewBox="0 0 20 20"><path d="M7 3a1 1 0 000 2h6a1 1 0 100-2H7zM4 7a1 1 0 011-1h10a1 1 0 110 2H5a1 1 0 01-1-1zM5 11a1 1 0 100 2h4a1 1 0 100-2H5z"></path></svg>
+                            </span>
+                            <h3 class="text-lg font-semibold text-white">Twitter Algorithm Research Project Lead</h3>
+                            <p class="text-sm font-normal text-gray-400">Center of Applied Values & Ethics in Emerging Technologies | UCSC</p>
+                            <time class="block mb-2 text-sm font-normal leading-none text-gray-500">2021 - 2022</time>
+                        </div>
+                         <!-- Experience Item 4 -->
+                        <div class="ml-6 pl-6 relative">
+                             <span class="absolute -left-[1.6rem] top-1 flex items-center justify-center w-8 h-8 bg-sky-500 rounded-full ring-4 ring-gray-900">
+                                <svg class="w-4 h-4 text-white" fill="currentColor" viewBox="0 0 20 20"><path d="M10.394 2.08a1 1 0 00-.788 0l-7 3a1 1 0 000 1.84L5.25 8.051a.998.998 0 01.056.222v5.443a1 1 0 001.289.963l3.39-1.595a1 1 0 01.912 0l3.39 1.595a1 1 0 001.289-.963V8.273a.998.998 0 01.056-.222l1.856-1.029a1 1 0 000-1.84l-7-3zM12 11.268l-2-1.053-2 1.053V8.385l2-1.105 2 1.105v2.883z"></path></svg>
+                            </span>
+                            <h3 class="text-lg font-semibold text-white">B.S. in Cognitive Science, HCI/AI Focus</h3>
+                            <p class="text-sm font-normal text-gray-400">University of California, Santa Cruz</p>
+                            <time class="block mb-2 text-sm font-normal leading-none text-gray-500">Graduated June 2022</time>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact -->
+        <section id="contact" class="py-20">
+            <div class="container mx-auto px-6">
+                 <div class="text-center mb-12">
+                    <h2 class="text-3xl md:text-4xl font-bold tracking-tight">Let's Connect</h2>
+                    <p class="text-gray-400 mt-2">I'm always open to discussing new projects, creative ideas, or opportunities to be part of something meaningful.</p>
+                </div>
+                <div class="max-w-xl mx-auto glass-card p-8 text-center">
+                    <p class="text-lg mb-6">
+                        Feel free to reach out for collaborations or just a friendly chat.
+                    </p>
+                    <a href="mailto:jatinalla2000@gmail.com" class="inline-block bg-sky-500 hover:bg-sky-600 text-white font-bold py-3 px-8 rounded-full transition-transform transform hover:scale-105">
+                        jatinalla2000@gmail.com
+                    </a>
+                    <div class="mt-8 flex justify-center space-x-6">
+                        <a href="https://www.linkedin.com/in/jatin-alla-7259ab169/" target="_blank" class="text-gray-400 hover:text-sky-400 transition-colors">
+                            <svg class="w-8 h-8" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z" clip-rule="evenodd"/></svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 border-t border-gray-800">
+        <div class="container mx-auto px-6 py-6 text-center text-gray-500">
+            <p>&copy; 2024 Jatin Alla. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        // Mobile menu toggle
+        const mobileMenuButton = document.getElementById('mobile-menu-button');
+        const mobileMenu = document.getElementById('mobile-menu');
+
+        mobileMenuButton.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+        });
+
+        // Close mobile menu when a link is clicked
+        const mobileMenuLinks = mobileMenu.getElementsByTagName('a');
+        for (let link of mobileMenuLinks) {
+            link.addEventListener('click', () => {
+                mobileMenu.classList.add('hidden');
+            });
+        }
+
+        // Add shadow to header on scroll
+        const header = document.getElementById('header');
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > 10) {
+                header.classList.add('shadow-lg');
+            } else {
+                header.classList.remove('shadow-lg');
+            }
+        });
+    </script>
+
+</body>
+</html>
